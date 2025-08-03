@@ -51,6 +51,7 @@ public class ForLoop {
 //        System.out.println(sum);
 
         //6-->First multiple of 5 which also multiple of 7
+
 //        int num = sc.nextInt();
 //        for( ; ; num ++){
 //           if(num % 5 ==0 && num % 7 ==0 ){
@@ -59,5 +60,22 @@ public class ForLoop {
 //           }
 //        }
 
+        //7-->continue use
+
+//        for(int i =1; i<=50; i++ ){
+//            if(i % 3 ==0){
+//                continue;
+//            }
+//            System.out.println(i);
+//        }
+
+        //8-->Label in loops
+
+//          myloop: for(int i =1; i<=50; i++ ){
+//            if(i % 3 ==0){
+//                continue myloop;
+//            }
+//            System.out.println(i);
+//        }
     }
 }

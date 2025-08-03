@@ -61,14 +61,27 @@ public class WhileLoop {
 //        }
 //        System.out.println(sum);
 
-        //6-->First multiple of 5 which also multiple of 7
-        int num = 1;
-        while(true){
-            if(num % 5 == 0 && num % 7 ==0){
-                System.out.println("Found ans " + num);
-                break;
-            }
-            num++;
-        }
+        //5-->First multiple of 5 which also multiple of 7
+
+//        int num = 1;
+//        while(true){
+//            if(num % 5 == 0 && num % 7 ==0){
+//                System.out.println("Found ans " + num);
+//                break;
+//            }
+//            num++;
+//        }
+
+        //6-->Continue
+
+//        int num =1;
+//        while(num <=50){
+//            if(num %3==0){
+//                num++;
+//                continue;
+//            }
+//            System.out.println(num);
+//            num++;
+//        }
     }
 }
