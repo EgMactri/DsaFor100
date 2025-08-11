@@ -11,6 +11,7 @@ public class BasicOfNumber {
         //Binary number have base 2
         //1001=1*2^3 + 0*2^2 + 0*2^1 + 1*2^0
 
-        //conversion
+        //conversion binary to decimal and decimal to binary
+
     }
 }
