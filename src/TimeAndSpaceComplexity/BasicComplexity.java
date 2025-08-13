@@ -24,7 +24,7 @@ public class BasicComplexity {
 
         //Omega{(time taken)}-->lower bound (best case) TC-->O(1)
 
-        //Theta{0(time taken)}-->average case (sum of best + worst )/2
+        //Theta{0(time taken)}-->average case ((sum of best + worst )/2)
 
     }
 }
