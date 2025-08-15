@@ -26,5 +26,33 @@ public class BasicComplexity {
 
         //Theta{0(time taken)}-->average case ((sum of best + worst )/2)
 
+        //Some que
+//        for(int i = 0 ; i <N ; i++){
+//            for(int j = 0; j<N ; j++){
+//                //code
+//            }
+//        }  -->N(N+N+N.....+N)=O(N^2)
+
+//        for(int i = 0 ; i <N ; i++){
+//            for(int j = 0; j<=i ; j++){
+//                //code
+//            }
+//        }-->N+(N+1)/2-->N^2/2+N/2-->O(N^2/2)==O(N^2)
+
+
+        //SPACE COMPLEXITY-->Memory space use Big-O
+        //Auxiliary space (the space that you take to solve the problem) + input space(the space that you take to store the input )
+
+        //int a ,b;-->Input space
+        //c= a+b;-->Auxiliary space
+        //O(3)
+        //int a [N]-->O(N) is space complexity
+
+        //1sec ==10^8 operation on server like gfg leetcode
+        //2sec ==2*10^8
+
+
     }
 }
+
+
