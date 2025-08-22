@@ -75,10 +75,5 @@ public class OthersPatternProblem {
 //        printRightAngleTriangleReverse(c);
 
 
-
-
-
-
-
     }
 }
