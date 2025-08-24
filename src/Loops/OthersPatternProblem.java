@@ -49,6 +49,23 @@ public class OthersPatternProblem {
         }
     }
 
+    public static void printRightAngleTriangleInSameNumberDown(int d){
+        for(int i = 1; i <= d; i++){
+            for(int j = 1; j <= d-i+1; j++) {
+                System.out.print(j);
+            }
+            System.out.println();
+        }
+    }
+
+    public static void printPeramid(int e){
+        for(int i = 1; i <= e; i++){
+            for(int j = 1; j <= i; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
 
 
     public static void main(String[] args) {
@@ -73,6 +90,12 @@ public class OthersPatternProblem {
 
 //        int c = sc.nextInt();
 //        printRightAngleTriangleReverse(c);
+
+//        int d = sc.nextInt();
+//        printRightAngleTriangleInSameNumberDown(d);
+
+        int e = sc.nextInt();;
+        printPeramid(e);
 
 
     }
