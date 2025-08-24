@@ -58,14 +58,20 @@ public class OthersPatternProblem {
         }
     }
 
-    public static void printPeramid(int e){
+    public static void printPramid(int e){
         for(int i = 1; i <= e; i++){
-            for(int j = 1; j <= i; j++){
+            for(int j = 1; j < e-i+1; j++){
+                System.out.print(" ");
+            }
+
+            for(int k = 1; k <= 2*i-1; k++){
                 System.out.print("*");
             }
             System.out.println();
         }
     }
+
+
 
 
     public static void main(String[] args) {
@@ -95,7 +101,7 @@ public class OthersPatternProblem {
 //        printRightAngleTriangleInSameNumberDown(d);
 
         int e = sc.nextInt();;
-        printPeramid(e);
+        printPramid(e);
 
 
     }
