@@ -84,7 +84,28 @@ public class OthersPatternProblem {
         }
     }
 
-
+    public static void printPyramidBoth(int g){
+        // Top pyramid
+        for(int i = 1; i <= g; i++){
+            for(int j = 1; j <= g - i; j++){
+                System.out.print(" ");
+            }
+            for(int k = 1; k <= 2*i - 1; k++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+        // Bottom pyramid (corrected)
+        for(int i = g; i >= 1; i--){
+            for(int j = 1; j <= g - i; j++){
+                System.out.print(" ");
+            }
+            for(int k = 1; k <= 2*i - 1; k++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
 
 
     public static void main(String[] args) {
@@ -118,6 +139,9 @@ public class OthersPatternProblem {
 
 //        int f = sc.nextInt();;
 //        printPyramidInvert(f);
+
+        int g = sc.nextInt();
+        printPyramidBoth(g);
 
 
     }
