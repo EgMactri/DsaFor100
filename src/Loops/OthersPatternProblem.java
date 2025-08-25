@@ -58,13 +58,26 @@ public class OthersPatternProblem {
         }
     }
 
-    public static void printPramid(int e){
+    public static void printPyramid(int e){
         for(int i = 1; i <= e; i++){
             for(int j = 1; j < e-i+1; j++){
                 System.out.print(" ");
             }
 
             for(int k = 1; k <= 2*i-1; k++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+
+    public static void printPyramidInvert(int f){
+        for(int i = 1; i <= f; i++){
+            for(int j = 1; j <= i; j++){
+                System.out.print(" ");
+            }
+
+            for(int k = 1; k <= 2*f-(2*i -1); k++){
                 System.out.print("*");
             }
             System.out.println();
@@ -100,8 +113,11 @@ public class OthersPatternProblem {
 //        int d = sc.nextInt();
 //        printRightAngleTriangleInSameNumberDown(d);
 
-        int e = sc.nextInt();;
-        printPramid(e);
+//        int e = sc.nextInt();;
+//        printPyramid(e);
+
+//        int f = sc.nextInt();;
+//        printPyramidInvert(f);
 
 
     }
