@@ -140,8 +140,8 @@ public class OthersPatternProblem {
 //        int f = sc.nextInt();;
 //        printPyramidInvert(f);
 
-        int g = sc.nextInt();
-        printPyramidBoth(g);
+//        int g = sc.nextInt();
+//        printPyramidBoth(g);
 
 
     }
