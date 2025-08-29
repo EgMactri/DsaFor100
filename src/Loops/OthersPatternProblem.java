@@ -142,6 +142,7 @@ public class OthersPatternProblem {
 
 //        int g = sc.nextInt();
 //        printPyramidBoth(g);
-        
+
+
     }
 }
